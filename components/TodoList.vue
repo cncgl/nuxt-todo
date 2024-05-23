@@ -17,7 +17,7 @@
         <button type="submit"
             class="p-2 bg-blue-500 text-white rouunded-r-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-          <font-awesome-icon icon="circle-plus" />
+          <font-awesome-icon :icon="['fas', 'circle-plus']" />
         </button>
       </form>
       <ul>
